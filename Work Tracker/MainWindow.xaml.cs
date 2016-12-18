@@ -30,5 +30,9 @@ namespace Work_Tracker
 			ExitProgram.Exit();
 		}
 
+		private void start_button_Click(object sender, RoutedEventArgs e)
+		{
+
+		}
 	}
 }
