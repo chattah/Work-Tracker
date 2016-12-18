@@ -17,6 +17,9 @@
 				<MenuItem Header="Exit" HorizontalAlignment="Left" Width="140" Click="File_Exit_Click" />
 			</MenuItem>
 		</Menu>
+		<Button x:Name="button" Grid.ColumnSpan="2" Content="Start" HorizontalAlignment="Left" Margin="60,245,0,0" VerticalAlignment="Top" Width="75"/>
+		<Button x:Name="button_Copy" Grid.ColumnSpan="2" Content="Stop" HorizontalAlignment="Left" Margin="155,245,0,0" VerticalAlignment="Top" Width="75"/>
+		<TextBlock x:Name="textBlock" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,25,0,0" TextWrapping="Wrap" Text="10:00" FontSize="120" VerticalAlignment="Top"/>
 
 	</Grid>
 </Window>
